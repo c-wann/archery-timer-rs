@@ -27,3 +27,9 @@ Preview the production build locally:
 ```bash
 pnpm preview
 ```
+
+Push to gh-pages
+```bash
+npm run build
+git subtree push --prefix dist origin gh-pages
+```
